@@ -72,6 +72,12 @@ Express backend server managing JSON files and git deployments.
 
 No environment variables required for local development. The API uses local git credentials for deployments.
 
+## 🌐 Live Deployment
+
+The portfolio is automatically deployed to GitHub Pages whenever changes are pushed to the `main` branch. The site should be live at: `https://NINPXO.github.io/personal-portfolio/`
+
+Last deployment: February 2026
+
 ## 📖 Documentation
 
 See individual `README.md` files in each package for detailed documentation.
