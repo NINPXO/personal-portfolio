@@ -24,9 +24,9 @@ export interface Project {
   description: string;
   techStack: string[];
   tags: string[];
-  liveUrl: string | null;
-  repoUrl: string | null;
-  imageUrl: string | null;
+  liveUrl?: string;
+  repoUrl?: string;
+  imageUrl?: string;
   featured: boolean;
   status: ProjectStatus;
   year: number;
@@ -56,7 +56,7 @@ export interface Experience {
   company: string;
   role: string;
   startDate: string;
-  endDate: string | null;
+  endDate?: string;
   current: boolean;
   location: string;
   description: string;
@@ -72,11 +72,11 @@ export interface BlogPost {
   excerpt: string;
   content: string;
   publishedAt: string;
-  updatedAt: string | null;
+  updatedAt?: string;
   tags: string[];
   published: boolean;
   readingTimeMinutes: number;
-  externalUrl: string | null;
+  externalUrl?: string;
 }
 
 // Contact
