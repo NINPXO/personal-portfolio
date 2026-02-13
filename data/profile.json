@@ -1,0 +1,14 @@
+{
+  "name": "Alex Morgan",
+  "tagline": "Full-Stack Engineer — building things that matter",
+  "bio": "Software engineer with experience in web and backend systems. I care about clean code and shipping things that work.",
+  "avatarUrl": "/images/avatar.jpg",
+  "location": "Your City, Country",
+  "resumeUrl": "/files/resume.pdf",
+  "social": {
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "twitter": "",
+    "email": "you@example.com"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website with content management system",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspaces",
+    "dev:api": "npm run dev --workspace=packages/api",
+    "dev:portfolio": "npm run dev --workspace=packages/portfolio",
+    "dev:cms": "npm run dev --workspace=packages/cms",
+    "build": "npm run build --workspaces",
+    "build:portfolio": "npm run build --workspace=packages/portfolio",
+    "preview": "npm run preview --workspace=packages/portfolio",
+    "type-check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

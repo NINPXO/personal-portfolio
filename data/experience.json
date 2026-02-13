@@ -1,0 +1,32 @@
+[
+  {
+    "id": "exp-001",
+    "company": "Tech Startup",
+    "role": "Senior Software Engineer",
+    "startDate": "2023-01",
+    "endDate": null,
+    "current": true,
+    "location": "San Francisco, CA",
+    "description": "Leading full-stack development initiatives.",
+    "highlights": [
+      "Built microservices architecture serving 100k+ users",
+      "Reduced API response time by 60% through optimization"
+    ],
+    "techStack": ["React", "Node.js", "PostgreSQL", "Docker"]
+  },
+  {
+    "id": "exp-002",
+    "company": "Previous Company",
+    "role": "Software Engineer",
+    "startDate": "2021-06",
+    "endDate": "2022-12",
+    "current": false,
+    "location": "New York, NY",
+    "description": "Developed web applications and backend services.",
+    "highlights": [
+      "Implemented real-time data streaming system",
+      "Mentored 2 junior developers"
+    ],
+    "techStack": ["Vue.js", "Python", "GraphQL"]
+  }
+]

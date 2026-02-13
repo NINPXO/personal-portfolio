@@ -1,0 +1,28 @@
+[
+  {
+    "id": "blog-001",
+    "title": "Getting Started with React Hooks",
+    "slug": "getting-started-with-react-hooks",
+    "excerpt": "A comprehensive guide to understanding and using React Hooks in your projects.",
+    "content": "# Getting Started with React Hooks\n\nReact Hooks revolutionized how we write functional components. In this post, we'll explore the fundamentals...\n\n## Why Hooks Matter\n\nHooks allow you to use state and other React features in functional components, eliminating the need for class components.",
+    "publishedAt": "2025-01-15",
+    "updatedAt": null,
+    "tags": ["react", "javascript", "tutorial"],
+    "published": true,
+    "readingTimeMinutes": 8,
+    "externalUrl": null
+  },
+  {
+    "id": "blog-002",
+    "title": "Building Scalable Node.js Applications",
+    "slug": "building-scalable-nodejs-applications",
+    "excerpt": "Best practices for scaling Node.js applications in production environments.",
+    "content": "# Building Scalable Node.js Applications\n\nNode.js is great for I/O-heavy applications, but scaling requires careful architecture decisions.\n\n## Key Considerations\n\n1. **Load Balancing**: Distribute requests across multiple processes\n2. **Clustering**: Use Node.js cluster module for multi-core systems\n3. **Caching**: Implement Redis for session and data caching",
+    "publishedAt": "2025-01-01",
+    "updatedAt": null,
+    "tags": ["nodejs", "backend", "devops"],
+    "published": true,
+    "readingTimeMinutes": 12,
+    "externalUrl": null
+  }
+]

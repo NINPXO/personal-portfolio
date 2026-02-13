@@ -1,0 +1,16 @@
+[
+  {
+    "id": "proj-001",
+    "title": "Project Alpha",
+    "slug": "project-alpha",
+    "description": "A sample project. Replace with your real work.",
+    "techStack": ["React", "Node.js", "PostgreSQL"],
+    "tags": ["fullstack", "web"],
+    "liveUrl": null,
+    "repoUrl": "https://github.com/yourusername/project-alpha",
+    "imageUrl": null,
+    "featured": true,
+    "status": "live",
+    "year": 2025
+  }
+]

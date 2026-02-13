@@ -1,0 +1,31 @@
+{
+  "categories": [
+    {
+      "id": "cat-001",
+      "name": "Languages",
+      "skills": [
+        { "name": "TypeScript", "level": "expert" },
+        { "name": "JavaScript", "level": "expert" },
+        { "name": "Python", "level": "proficient" }
+      ]
+    },
+    {
+      "id": "cat-002",
+      "name": "Frontend",
+      "skills": [
+        { "name": "React", "level": "expert" },
+        { "name": "Tailwind CSS", "level": "expert" },
+        { "name": "Next.js", "level": "proficient" }
+      ]
+    },
+    {
+      "id": "cat-003",
+      "name": "Backend",
+      "skills": [
+        { "name": "Node.js", "level": "expert" },
+        { "name": "Express", "level": "expert" },
+        { "name": "PostgreSQL", "level": "proficient" }
+      ]
+    }
+  ]
+}
