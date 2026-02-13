@@ -24,9 +24,9 @@ export interface Project {
   description: string;
   techStack: string[];
   tags: string[];
-  liveUrl?: string | null;
-  repoUrl?: string;
-  imageUrl?: string | null;
+  liveUrl: string | null;
+  repoUrl: string | null;
+  imageUrl: string | null;
   featured: boolean;
   status: ProjectStatus;
   year: number;
