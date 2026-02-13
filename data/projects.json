@@ -1,16 +1,44 @@
 [
   {
     "id": "proj-001",
-    "title": "Project Alpha",
-    "slug": "project-alpha",
-    "description": "A sample project. Replace with your real work.",
-    "techStack": ["React", "Node.js", "PostgreSQL"],
-    "tags": ["fullstack", "web"],
+    "title": "Oracle Banking Digital Experience (OBDX) Implementation",
+    "slug": "obdx-banking-implementation",
+    "description": "Developed and customized digital banking channels for financial institutions using Oracle OBDX platform. Implemented Internet Banking, Mobile Banking, and Open Banking APIs with REST services. Technologies: JavaScript, HTML, CSS, SQL, MVC Pattern. LinkedIn: https://www.linkedin.com/in/dheerajkumarsihag/",
+    "techStack": ["JavaScript", "HTML", "CSS", "SQL", "Oracle OBDX", "REST API"],
+    "tags": ["banking", "frontend", "enterprise"],
     "liveUrl": null,
-    "repoUrl": "https://github.com/yourusername/project-alpha",
+    "repoUrl": null,
     "imageUrl": null,
     "featured": true,
     "status": "live",
-    "year": 2025
+    "year": 2024
+  },
+  {
+    "id": "proj-002",
+    "title": "FLEXCUBE Universal Banking System Integration",
+    "slug": "flexcube-banking-integration",
+    "description": "Integrated and customized Oracle FLEXCUBE Universal Banking (FCDB) system for core banking operations. Developed UI components, REST APIs, and SQL queries for banking workflows. Handled troubleshooting and system documentation. Technologies: Java, JavaScript, Spring Boot, SQL, MVC/MVVM Pattern. LinkedIn: https://www.linkedin.com/in/dheerajkumarsihag/",
+    "techStack": ["Java", "JavaScript", "Spring Boot", "SQL", "Oracle FLEXCUBE", "MVC/MVVM"],
+    "tags": ["banking", "backend", "enterprise"],
+    "liveUrl": null,
+    "repoUrl": null,
+    "imageUrl": null,
+    "featured": true,
+    "status": "live",
+    "year": 2024
+  },
+  {
+    "id": "proj-003",
+    "title": "Open Banking APIs & Digital Channels",
+    "slug": "open-banking-apis",
+    "description": "Developed Open Banking APIs and Digital Banking Channels for payment processing and third-party integrations. Implemented secure REST endpoints, API authentication, and data management. Created responsive UI for banking operations. Technologies: JavaScript, HTML, CSS, Java, SQL, REST API. LinkedIn: https://www.linkedin.com/in/dheerajkumarsihag/",
+    "techStack": ["JavaScript", "HTML", "CSS", "Java", "SQL", "REST API"],
+    "tags": ["banking", "api", "security"],
+    "liveUrl": null,
+    "repoUrl": null,
+    "imageUrl": null,
+    "featured": true,
+    "status": "live",
+    "year": 2023
   }
 ]

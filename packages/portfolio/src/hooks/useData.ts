@@ -8,11 +8,23 @@ import {
   Contact,
 } from '../types/index';
 
+interface EducationEntry {
+  id: string;
+  school: string;
+  degree: string;
+  field: string;
+  startDate: string;
+  endDate: string;
+  description: string;
+  skills: string[];
+}
+
 interface DataState {
   profile: Profile | null;
   projects: Project[];
   skills: SkillsData | null;
   experience: Experience[];
+  education: EducationEntry[];
   blog: BlogPost[];
   contact: Contact | null;
   loading: boolean;
@@ -24,6 +36,7 @@ const initialState: DataState = {
   projects: [],
   skills: null,
   experience: [],
+  education: [],
   blog: [],
   contact: null,
   loading: true,
@@ -37,12 +50,13 @@ export function useData() {
     const loadData = async () => {
       try {
         // Dynamically import JSON files
-        const [profile, projects, skills, experience, blog, contact] =
+        const [profile, projects, skills, experience, education, blog, contact] =
           await Promise.all([
             import('../data/profile.json').then((m) => m.default),
             import('../data/projects.json').then((m) => m.default),
             import('../data/skills.json').then((m) => m.default),
             import('../data/experience.json').then((m) => m.default),
+            import('../data/education.json').then((m) => m.default),
             import('../data/blog.json').then((m) => m.default),
             import('../data/contact.json').then((m) => m.default),
           ]);
@@ -52,6 +66,7 @@ export function useData() {
           projects,
           skills,
           experience,
+          education,
           blog: blog.filter((post: BlogPost) => post.published),
           contact,
           loading: false,

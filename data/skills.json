@@ -2,29 +2,57 @@
   "categories": [
     {
       "id": "cat-001",
-      "name": "Languages",
+      "name": "Languages & Frameworks",
       "skills": [
-        { "name": "TypeScript", "level": "expert" },
         { "name": "JavaScript", "level": "expert" },
-        { "name": "Python", "level": "proficient" }
+        { "name": "Java", "level": "expert" },
+        { "name": "SQL", "level": "expert" },
+        { "name": "Spring Boot", "level": "proficient" },
+        { "name": "TypeScript", "level": "proficient" }
       ]
     },
     {
       "id": "cat-002",
-      "name": "Frontend",
+      "name": "Frontend Development",
       "skills": [
-        { "name": "React", "level": "expert" },
-        { "name": "Tailwind CSS", "level": "expert" },
-        { "name": "Next.js", "level": "proficient" }
+        { "name": "HTML", "level": "expert" },
+        { "name": "CSS", "level": "expert" },
+        { "name": "Bootstrap", "level": "expert" },
+        { "name": "React", "level": "proficient" },
+        { "name": "Tailwind CSS", "level": "proficient" }
       ]
     },
     {
       "id": "cat-003",
-      "name": "Backend",
+      "name": "Backend & Databases",
       "skills": [
-        { "name": "Node.js", "level": "expert" },
-        { "name": "Express", "level": "expert" },
-        { "name": "PostgreSQL", "level": "proficient" }
+        { "name": "MySQL", "level": "expert" },
+        { "name": "REST API", "level": "expert" },
+        { "name": "Node.js", "level": "proficient" },
+        { "name": "Express", "level": "proficient" },
+        { "name": "OBDX", "level": "expert" }
+      ]
+    },
+    {
+      "id": "cat-004",
+      "name": "Banking & Enterprise",
+      "skills": [
+        { "name": "Oracle FLEXCUBE", "level": "expert" },
+        { "name": "Digital Banking", "level": "expert" },
+        { "name": "Open Banking APIs", "level": "proficient" },
+        { "name": "MVC/MVVM Patterns", "level": "expert" },
+        { "name": "Oracle Banking Systems", "level": "expert" }
+      ]
+    },
+    {
+      "id": "cat-005",
+      "name": "Tools & Technologies",
+      "skills": [
+        { "name": "Git", "level": "expert" },
+        { "name": "Eclipse IDE", "level": "expert" },
+        { "name": "Problem Solving", "level": "expert" },
+        { "name": "OCI Generative AI Professional", "level": "proficient" },
+        { "name": "Data Structures & Algorithms", "level": "expert" }
       ]
     }
   ]

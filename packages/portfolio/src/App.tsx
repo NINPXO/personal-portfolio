@@ -5,11 +5,12 @@ import { Hero } from './components/sections/Hero';
 import { Projects } from './components/sections/Projects';
 import { Skills } from './components/sections/Skills';
 import { ExperienceSection } from './components/sections/Experience';
+import { Education } from './components/sections/Education';
 import { Blog } from './components/sections/Blog';
 import { Contact } from './components/sections/Contact';
 
 function App() {
-  const { profile, projects, skills, experience, blog, contact, loading, error } = useData();
+  const { profile, projects, skills, experience, education, blog, contact, loading, error } = useData();
 
   if (error) {
     return (
@@ -41,6 +42,7 @@ function App() {
         <Projects projects={projects} />
         <Skills skills={skills} />
         <ExperienceSection experience={experience} />
+        <Education education={education} />
         <Blog posts={blog} />
         <Contact contact={contact} />
       </main>

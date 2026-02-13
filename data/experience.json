@@ -1,32 +1,50 @@
 [
   {
     "id": "exp-001",
-    "company": "Tech Startup",
-    "role": "Senior Software Engineer",
-    "startDate": "2023-01",
+    "company": "JMR Infotech",
+    "role": "Consultant",
+    "startDate": "2025-06",
     "endDate": null,
     "current": true,
-    "location": "San Francisco, CA",
-    "description": "Leading full-stack development initiatives.",
+    "location": "Remote",
+    "description": "Consultant providing expertise in full-stack development and enterprise software solutions.",
     "highlights": [
-      "Built microservices architecture serving 100k+ users",
-      "Reduced API response time by 60% through optimization"
+      "Delivering innovative solutions leveraging latest technologies",
+      "Contributing to enterprise-level projects"
     ],
-    "techStack": ["React", "Node.js", "PostgreSQL", "Docker"]
+    "techStack": ["Java", "JavaScript", "HTML", "CSS", "MySQL", "Spring Boot"]
   },
   {
     "id": "exp-002",
-    "company": "Previous Company",
-    "role": "Software Engineer",
-    "startDate": "2021-06",
-    "endDate": "2022-12",
+    "company": "Oracle Financial Services Software Limited",
+    "role": "Staff Consultant",
+    "startDate": "2024-05",
+    "endDate": "2025-05",
     "current": false,
-    "location": "New York, NY",
-    "description": "Developed web applications and backend services.",
+    "location": "Pune, Maharashtra, India",
+    "description": "Specialized in developing and customizing web applications for Banking and Financial clients using HTML, CSS, JavaScript, and various Oracle toolkits.",
     "highlights": [
-      "Implemented real-time data streaming system",
-      "Mentored 2 junior developers"
+      "Delivered solutions for Digital Banking Channels including Internet Banking and Open Banking APIs",
+      "Successfully implemented OBDX and FLEXCUBE Universal Banking (FCDB) projects",
+      "Received multiple awards for problem-solving skills including The Rising Star and Merci - Thank You",
+      "Proficient in REST API creation, SQL queries, and UI development using Model-View-ViewModel pattern"
     ],
-    "techStack": ["Vue.js", "Python", "GraphQL"]
+    "techStack": ["JavaScript", "SQL", "HTML", "CSS", "OBDX", "FLEXCUBE", "REST API"]
+  },
+  {
+    "id": "exp-003",
+    "company": "Oracle Financial Services Software Limited",
+    "role": "Associate Consultant",
+    "startDate": "2021-08",
+    "endDate": "2024-05",
+    "current": false,
+    "location": "Pune, Maharashtra, India",
+    "description": "Developed and maintained web applications for Banking and Financial domain. Worked on complex Oracle Banking solutions.",
+    "highlights": [
+      "2+ years of hands-on experience in Banking & Financial software development",
+      "Strong foundation in troubleshooting, resolving, and documenting system issues",
+      "Contributed to successful delivery of multiple Digital Banking projects"
+    ],
+    "techStack": ["JavaScript", "SQL", "Java", "HTML", "CSS", "Spring Boot"]
   }
 ]

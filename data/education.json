@@ -1,0 +1,22 @@
+[
+  {
+    "id": "edu-001",
+    "school": "Army Institute of Technology, Pune",
+    "degree": "Bachelor of Engineering",
+    "field": "Computer Science",
+    "startDate": "2017-06",
+    "endDate": "2021-05",
+    "description": "Strong foundation in programming, data structures, algorithms, and software engineering. Hands-on experience with Java, C++, and web technologies.",
+    "skills": ["Programming", "Data Structures", "Algorithms", "Web Development", "Database Design"]
+  },
+  {
+    "id": "edu-002",
+    "school": "Kendriya Vidyalaya",
+    "degree": "Class 12",
+    "field": "PCM with C++",
+    "startDate": "2015-01",
+    "endDate": "2016-12",
+    "description": "Physics, Chemistry, Mathematics with Computer Science (C++)",
+    "skills": ["Physics", "Chemistry", "Mathematics", "C++"]
+  }
+]

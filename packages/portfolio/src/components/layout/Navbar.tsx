@@ -13,6 +13,7 @@ export function Navbar({ profile }: NavbarProps) {
     { label: 'Projects', href: '#projects' },
     { label: 'Skills', href: '#skills' },
     { label: 'Experience', href: '#experience' },
+    { label: 'Education', href: '#education' },
     { label: 'Blog', href: '#blog' },
     { label: 'Contact', href: '#contact' },
   ];
