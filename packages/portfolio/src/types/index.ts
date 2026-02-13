@@ -15,7 +15,7 @@ export interface Profile {
 }
 
 // Projects
-export type ProjectStatus = 'live' | 'complete' | 'wip' | 'archived';
+export type ProjectStatus = 'live' | 'complete' | 'wip' | 'archived' | string;
 
 export interface Project {
   id: string;
@@ -24,16 +24,16 @@ export interface Project {
   description: string;
   techStack: string[];
   tags: string[];
-  liveUrl: string | null;
-  repoUrl: string;
-  imageUrl: string | null;
+  liveUrl?: string | null;
+  repoUrl?: string;
+  imageUrl?: string | null;
   featured: boolean;
   status: ProjectStatus;
   year: number;
 }
 
 // Skills
-export type SkillLevel = 'expert' | 'proficient' | 'learning' | 'familiar';
+export type SkillLevel = 'expert' | 'proficient' | 'learning' | 'familiar' | string;
 
 export interface Skill {
   name: string;
