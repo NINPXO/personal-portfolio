@@ -19,6 +19,7 @@
     "role": "Staff Consultant",
     "startDate": "2024-05",
     "endDate": "2025-05",
+    "current": false,
     "location": "Pune, Maharashtra, India",
     "description": "Specialized in developing and customizing web applications for Banking and Financial clients using HTML, CSS, JavaScript, and various Oracle toolkits.",
     "highlights": [
@@ -35,6 +36,7 @@
     "role": "Associate Consultant",
     "startDate": "2021-08",
     "endDate": "2024-05",
+    "current": false,
     "location": "Pune, Maharashtra, India",
     "description": "Developed and maintained web applications for Banking and Financial domain. Worked on complex Oracle Banking solutions.",
     "highlights": [
