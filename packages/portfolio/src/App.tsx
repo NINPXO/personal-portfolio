@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useData } from './hooks/useData';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
@@ -11,6 +12,12 @@ import { Contact } from './components/sections/Contact';
 
 function App() {
   const { profile, projects, skills, experience, education, blog, contact, loading, error } = useData();
+
+  useEffect(() => {
+    if (profile?.name) {
+      document.title = `${profile.name} - Portfolio`;
+    }
+  }, [profile?.name]);
 
   if (error) {
     return (
